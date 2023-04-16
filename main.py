@@ -1,6 +1,6 @@
 # Importing necessary modules
 import torch
-import config
+#import config
 import openai
 import textwrap
 import streamlit as st
