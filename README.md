@@ -3,7 +3,9 @@
   
   <body>
     <h1>GPTCaption: Automatic Image Captioning and Social Media Captioning Tool</h1>
-    <p>GPTCaption is an open-source tool that automatically generates captions for images. It utilizes the power of pre-trained models, including ViT-GPT2 for image captioning and OpenAI's GPT-3 for social media captioning, to provide high-quality and engaging captions for your images.</p>
+    <p>
+    GPTCaption is a tool for automatic image captioning and social media prowess. It leverages a pre-trained image captioning model called vit-gpt2-image-captioning, available on Hugging Face, to generate captions for any image. The generated captions are then further enhanced by OpenAI's GPT-3, resulting in engaging and creative captions suitable for platforms like Instagram, LinkedIn, Twitter, and more. To use GPTCaption, users need to create a Python virtual environment, activate it, and install the required packages mentioned in the requirements.txt file
+    </p>
     <h2>Installation and Usage:</h2>
     <ol>
       <li>Clone the repository:</li>
