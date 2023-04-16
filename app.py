@@ -1,3 +1,8 @@
+from tkinter import *
+root = Tk()
+root.title('My App')
+root.mainloop()
+
 import streamlit as st
 from main import generate_caption
 
