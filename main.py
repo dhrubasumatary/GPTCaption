@@ -3,13 +3,21 @@ import torch
 import config
 import openai
 import textwrap
+import streamlit as st
 from huggingface_hub import notebook_login
 from transformers import VisionEncoderDecoderModel, ViTImageProcessor, AutoTokenizer
 from PIL import Image
 from tkinter import filedialog, Tk
 
-#load openai api key
-openai.api_key = config.api_key
+
+
+# retrieve api_key from Streamlit secrets
+secrets = st.secrets["api_keys"]
+api_key = secrets["api_key"]
+
+# set openai api_key
+openai.api_key = api_key
+
 
 
 
