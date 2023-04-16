@@ -3,7 +3,7 @@
   
   <body>
     <h1>GPTCaption: Automatic Image Captioning and Social Media Captioning Tool</h1>
-    <p>GPTCaption is an open-source tool that automatically generates captions for images using advanced machine learning techniques. It utilizes the power of pre-trained models, including ViT-GPT2 for image captioning and OpenAI's GPT-3 for social media captioning, to provide high-quality and engaging captions for your images.</p>
+    <p>GPTCaption is an open-source tool that automatically generates captions for images. It utilizes the power of pre-trained models, including ViT-GPT2 for image captioning and OpenAI's GPT-3 for social media captioning, to provide high-quality and engaging captions for your images.</p>
     <h2>Installation and Usage:</h2>
     <ol>
       <li>Clone the repository:</li>
