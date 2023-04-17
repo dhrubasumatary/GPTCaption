@@ -19,7 +19,7 @@
       <li>Install the required dependencies:</li>
       <pre><code>pip install -r requirements.txt</code></pre>
       <li>Run the program:</li>
-      <pre><code>python gptcaption.py</code></pre>
+      <pre><code>python main.py</code></pre>
     </ol>
     <h2>Contributing:</h2>
     <p>Contributions are always welcome! If you would like to contribute to the project, please create a new branch, make your changes, and submit a pull request. Please make sure to adhere to the existing code style and follow the project's guidelines.</p>
